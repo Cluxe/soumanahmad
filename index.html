@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Soumaan Ahmad — Motion Graphics Designer & Visual Storyteller. Founder of Cluxstation. Available for freelance on Upwork & Fiverr.">
+    <title>Soumaan Ahmad | Motion Graphics Designer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- ============================================================ -->
+    <!-- NAVIGATION -->
+    <!-- ============================================================ -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">SA<span class="logo-dot">.</span></a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact" class="btn-nav-cta">Hire Me</a></li>
+            </ul>
+            <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+        <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#experience">Experience</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Hire Me</a>
+        </div>
+    </nav>
+
+    <!-- ============================================================ -->
+    <!-- HERO SECTION -->
+    <!-- ============================================================ -->
+    <section id="hero">
+        <div class="hero-grid-bg" aria-hidden="true"></div>
+        <div class="hero-blob hero-blob-1" aria-hidden="true"></div>
+        <div class="hero-blob hero-blob-2" aria-hidden="true"></div>
+
+        <div class="hero-inner">
+            <div class="hero-content">
+                <div class="hero-badge reveal">
+                    <span class="badge-dot"></span>
+                    Available for Freelance
+                </div>
+                <h1 class="hero-title reveal">
+                    <span class="line">Bringing Ideas</span>
+                    <span class="line gradient-text">To Life in Motion</span>
+                </h1>
+                <p class="hero-tagline reveal">Motion Graphics Designer & Visual Storyteller</p>
+                <p class="hero-desc reveal">
+                    I craft cinematic animations, visual effects, and compelling
+                    motion graphics that make brands unforgettable.
+                </p>
+                <div class="hero-actions reveal">
+                    <a href="#projects" class="btn btn-primary">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+                        View My Work
+                    </a>
+                    <a href="#contact" class="btn btn-outline">Get In Touch</a>
+                </div>
+                <div class="hero-stats reveal">
+                    <div class="hero-stat">
+                        <span class="counter" data-target="4">0</span><span class="stat-plus">+</span>
+                        <p>Years Exp.</p>
+                    </div>
+                    <div class="hero-stat-divider"></div>
+                    <div class="hero-stat">
+                        <span class="counter" data-target="50">0</span><span class="stat-plus">+</span>
+                        <p>Projects</p>
+                    </div>
+                    <div class="hero-stat-divider"></div>
+                    <div class="hero-stat">
+                        <span class="counter" data-target="30">0</span><span class="stat-plus">+</span>
+                        <p>Happy Clients</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-video-col reveal">
+                <div class="video-frame-wrapper">
+                    <div class="video-reel-badge">SHOWREEL 2025</div>
+                    <!--
+                        FACADE PATTERN: Replaces direct iframe for fast page load.
+                        Replace data-video-id with your actual YouTube video ID.
+                        Replace the style background-image with your thumbnail URL:
+                        e.g., https://img.youtube.com/vi/YOUR_VIDEO_ID/maxresdefault.jpg
+                    -->
+                    <div class="yt-facade"
+                         data-video-id="YOUR_SHOWREEL_VIDEO_ID"
+                         role="button"
+                         tabindex="0"
+                         aria-label="Play Showreel 2025"
+                         style="background-image: url('https://img.youtube.com/vi/YOUR_SHOWREEL_VIDEO_ID/maxresdefault.jpg');">
+                        <div class="yt-facade-overlay"></div>
+                        <button class="facade-play-btn" aria-label="Play video">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+                        </button>
+                        <div class="facade-duration">2:45</div>
+                    </div>
+                    <div class="video-glow" aria-hidden="true"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="scroll-indicator" aria-hidden="true">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- ============================================================ -->
+    <!-- ABOUT SECTION -->
+    <!-- ============================================================ -->
+    <section id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image-col reveal">
+                    <div class="about-img-wrapper">
+                        <!--
+                            Replace the initials placeholder below with a real photo:
+                            <img src="your-photo.jpg" alt="Soumaan Ahmad">
+                        -->
+                        <div class="about-img-placeholder" aria-label="Soumaan Ahmad">SA</div>
+                        <div class="about-img-border" aria-hidden="true"></div>
+                        <div class="about-img-dot about-img-dot-1" aria-hidden="true"></div>
+                        <div class="about-img-dot about-img-dot-2" aria-hidden="true"></div>
+                    </div>
+                    <div class="about-availability">
+                        <span class="avail-dot"></span>
+                        <span>Open to new projects</span>
+                    </div>
+                </div>
+
+                <div class="about-content reveal">
+                    <span class="section-label">About Me</span>
+                    <h2>Crafting Visual Stories <br><span class="gradient-text">That Move People</span></h2>
+                    <p>
+                        I'm <strong>Soumaan Ahmad</strong>, a passionate Motion Graphics Designer with
+                        <strong>4+ years</strong> of hands-on experience turning raw concepts into
+                        stunning visual narratives. My work spans logo animations, YouTube channel art,
+                        explainer videos, 3D title sequences, and full-scale motion campaigns.
+                    </p>
+                    <p>
+                        As a freelancer on <strong>Upwork</strong> and <strong>Fiverr</strong>, I've
+                        collaborated with brands and creators worldwide — consistently delivering
+                        high-quality motion work on time and on brief. I'm also the founder of
+                        <strong>Cluxstation</strong>, a software house pushing the boundaries of digital
+                        creative production.
+                    </p>
+                    <div class="about-tags">
+                        <span>After Effects</span>
+                        <span>Cinema 4D</span>
+                        <span>Premiere Pro</span>
+                        <span>Blender</span>
+                        <span>DaVinci Resolve</span>
+                        <span>Trapcode Suite</span>
+                    </div>
+                    <div class="about-actions">
+                        <a href="#contact" class="btn btn-primary">Work With Me</a>
+                        <!--
+                            Replace resume.pdf with your actual CV file path.
+                            Host it in the same GitHub Pages repo.
+                        -->
+                        <a href="resume.pdf" class="btn btn-outline" target="_blank" rel="noopener">Download CV</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================ -->
+    <!-- SKILLS SECTION -->
+    <!-- ============================================================ -->
+    <section id="skills">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-label">What I Do</span>
+                <h2>Skills & <span class="gradient-text">Expertise</span></h2>
+                <p>A complete toolkit for professional motion design and visual storytelling.</p>
+            </div>
+
+            <div class="skills-grid">
+                <div class="skill-card reveal">
+                    <div class="skill-icon-wrap">🎬</div>
+                    <h3>2D Animation</h3>
+                    <p>Frame-by-frame and rig-based 2D animation with fluid, character-driven movement.</p>
+                    <div class="skill-bar-wrap">
+                        <div class="skill-bar"><div class="skill-fill" data-width="92"></div></div>
+                        <span class="skill-pct">92%</span>
+                    </div>
+                </div>
+                <div class="skill-card reveal">
+                    <div class="skill-icon-wrap">🧊</div>
+                    <h3>3D Motion Graphics</h3>
+                    <p>Cinematic 3D title sequences, product reveals, and abstract motion using Cinema 4D & Blender.</p>
+                    <div class="skill-bar-wrap">
+                        <div class="skill-bar"><div class="skill-fill" data-width="82"></div></div>
+                        <span class="skill-pct">82%</span>
+                    </div>
+                </div>
+                <div class="skill-card reveal">
+                    <div class="skill-icon-wrap">✨</div>
+                    <h3>Visual Effects (VFX)</h3>
+                    <p>Compositing, particle systems, and practical effect simulations for film and commercial work.</p>
+                    <div class="skill-bar-wrap">
+                        <div class="skill-bar"><div class="skill-fill" data-width="78"></div></div>
+                        <span class="skill-pct">78%</span>
+                    </div>
+                </div>
+                <div class="skill-card reveal">
+                    <div class="skill-icon-wrap">🎨</div>
+                    <h3>Motion Graphics</h3>
+                    <p>Branded lower thirds, kinetic typography, logo animations, and UI motion for digital platforms.</p>
+                    <div class="skill-bar-wrap">
+                        <div class="skill-bar"><div class="skill-fill" data-width="95"></div></div>
+                        <span class="skill-pct">95%</span>
+                    </div>
+                </div>
+                <div class="skill-card reveal">
+                    <div class="skill-icon-wrap">🎞️</div>
+                    <h3>Video Editing</h3>
+                    <p>Professional storytelling, colour grading, sound design integration, and precise pacing.</p>
+                    <div class="skill-bar-wrap">
+                        <div class="skill-bar"><div class="skill-fill" data-width="88"></div></div>
+                        <span class="skill-pct">88%</span>
+                    </div>
+                </div>
+                <div class="skill-card reveal">
+                    <div class="skill-icon-wrap">💡</div>
+                    <h3>Creative Direction</h3>
+                    <p>Concept development, storyboarding, style frame design, and full campaign visual direction.</p>
+                    <div class="skill-bar-wrap">
+                        <div class="skill-bar"><div class="skill-fill" data-width="85"></div></div>
+                        <span class="skill-pct">85%</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tools-marquee-section reveal">
+                <p class="marquee-label">Tools I Work With</p>
+                <div class="marquee-wrapper" aria-label="Tool list">
+                    <div class="marquee-track">
+                        <span>After Effects</span><span aria-hidden="true">·</span>
+                        <span>Cinema 4D</span><span aria-hidden="true">·</span>
+                        <span>Premiere Pro</span><span aria-hidden="true">·</span>
+                        <span>Blender</span><span aria-hidden="true">·</span>
+                        <span>DaVinci Resolve</span><span aria-hidden="true">·</span>
+                        <span>Photoshop</span><span aria-hidden="true">·</span>
+                        <span>Illustrator</span><span aria-hidden="true">·</span>
+                        <span>Trapcode Suite</span><span aria-hidden="true">·</span>
+                        <span>Element 3D</span><span aria-hidden="true">·</span>
+                        <span>Mocha Pro</span><span aria-hidden="true">·</span>
+                        <!-- Duplicate for seamless loop -->
+                        <span>After Effects</span><span aria-hidden="true">·</span>
+                        <span>Cinema 4D</span><span aria-hidden="true">·</span>
+                        <span>Premiere Pro</span><span aria-hidden="true">·</span>
+                        <span>Blender</span><span aria-hidden="true">·</span>
+                        <span>DaVinci Resolve</span><span aria-hidden="true">·</span>
+                        <span>Photoshop</span><span aria-hidden="true">·</span>
+                        <span>Illustrator</span><span aria-hidden="true">·</span>
+                        <span>Trapcode Suite</span><span aria-hidden="true">·</span>
+                        <span>Element 3D</span><span aria-hidden="true">·</span>
+                        <span>Mocha Pro</span><span aria-hidden="true">·</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================ -->
+    <!-- EXPERIENCE SECTION -->
+    <!-- ============================================================ -->
+    <section id="experience">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-label">My Journey</span>
+                <h2>Professional <span class="gradient-text">Experience</span></h2>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card">
+                        <span class="timeline-year">2024 — Present</span>
+                        <h3>Founder & Creative Director</h3>
+                        <h4>Cluxstation</h4>
+                        <p>Founded Cluxstation, a software house delivering motion design, web development, and digital creative solutions to clients globally. Leading all creative strategy, overseeing motion pipelines, and building a team of digital creatives.</p>
+                        <div class="timeline-tags">
+                            <span>Leadership</span>
+                            <span>Creative Strategy</span>
+                            <span>Motion Design</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card">
+                        <span class="timeline-year">2022 — Present</span>
+                        <h3>Freelance Motion Graphics Designer</h3>
+                        <h4>Upwork & Fiverr</h4>
+                        <p>Delivered 50+ motion design projects for international clients spanning brand animation, explainer videos, social media content, and YouTube channel branding. Maintained a consistent 5-star rating through quality-first delivery.</p>
+                        <div class="timeline-tags">
+                            <span>Upwork</span>
+                            <span>Fiverr</span>
+                            <span>Client Relations</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card">
+                        <span class="timeline-year">2021 — 2022</span>
+                        <h3>Junior Motion Designer</h3>
+                        <h4>Independent Projects & Collaborations</h4>
+                        <p>Built foundational skills through personal projects and online collaborations. Developed a signature style blending cinematic aesthetics with bold graphic design principles across explainer and branding work.</p>
+                        <div class="timeline-tags">
+                            <span>After Effects</span>
+                            <span>2D Animation</span>
+                            <span>Branding</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card">
+                        <span class="timeline-year">2020 — 2021</span>
+                        <h3>Self-Taught Motion Design Journey</h3>
+                        <h4>Foundation Building</h4>
+                        <p>Began mastering Adobe After Effects from scratch. Completed advanced courses in kinetic typography, logo reveal animation, compositing, and motion principles. Built first portfolio from the ground up.</p>
+                        <div class="timeline-tags">
+                            <span>After Effects</span>
+                            <span>Portfolio Build</span>
+                            <span>Self-Learning</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================ -->
+    <!-- PROJECTS SECTION -->
+    <!-- ============================================================ -->
+    <section id="projects">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-label">Portfolio</span>
+                <h2>Featured <span class="gradient-text">Projects</span></h2>
+                <p>A curated selection of my best motion design work.</p>
+            </div>
+
+            <div class="projects-filter reveal" role="group" aria-label="Filter projects by category">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="logo">Logo Animation</button>
+                <button class="filter-btn" data-filter="explainer">Explainer</button>
+                <button class="filter-btn" data-filter="3d">3D Motion</button>
+                <button class="filter-btn" data-filter="social">Social Media</button>
+            </div>
+
+            <div class="projects-grid" id="projectsGrid">
+                <!--
+                    For each card:
+                    - data-category: matches filter buttons (logo / explainer / 3d / social)
+                    - data-video-id: your YouTube video ID
+                    - data-title: shown in modal header
+                    - data-desc: shown in modal description
+                    - data-platform: "youtube" or "vimeo" (controls embed URL)
+                    Replace placeholder images with real thumbnails.
+                -->
+
+                <article class="project-card reveal"
+                    data-category="logo"
+                    data-video-id="YOUR_VIDEO_ID_1"
+                    data-platform="youtube"
+                    data-title="Logo Reveal — TechBrand"
+                    data-desc="A sleek, minimal logo reveal animation for a tech startup, featuring particle effects, smooth motion blur, and a cinematic sound design sync.">
+                    <div class="project-thumb">
+                        <img src="https://img.youtube.com/vi/YOUR_VIDEO_ID_1/maxresdefault.jpg"
+                             alt="Logo Reveal — TechBrand thumbnail"
+                             loading="lazy"
+                             onerror="this.src='https://via.placeholder.com/600x338/12121f/8b5cf6?text=Logo+Reveal'">
+                        <div class="project-hover-overlay">
+                            <div class="project-play-btn" aria-label="Play Logo Reveal project">
+                                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-meta">
+                        <span class="project-category-label">Logo Animation</span>
+                        <h3>Logo Reveal — TechBrand</h3>
+                        <p>Particle-driven logo reveal with premium motion blur and sound sync.</p>
+                    </div>
+                </article>
+
+                <article class="project-card reveal"
+                    data-category="explainer"
+                    data-video-id="YOUR_VIDEO_ID_2"
+                    data-platform="youtube"
+                    data-title="Explainer Video — SaaS Product"
+                    data-desc="A 90-second explainer video communicating a complex SaaS product with clean 2D character animation, kinetic typography, and a bold visual system.">
+                    <div class="project-thumb">
+                        <img src="https://img.youtube.com/vi/YOUR_VIDEO_ID_2/maxresdefault.jpg"
+                             alt="Explainer Video — SaaS Product thumbnail"
+                             loading="lazy"
+                             onerror="this.src='https://via.placeholder.com/600x338/12121f/22d3ee?text=Explainer+Video'">
+                        <div class="project-hover-overlay">
+                            <div class="project-play-btn" aria-label="Play Explainer Video project">
+                                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-meta">
+                        <span class="project-category-label">Explainer</span>
+                        <h3>Explainer Video — SaaS Product</h3>
+                        <p>Clean 2D animation and kinetic typography for a SaaS brand.</p>
+                    </div>
+                </article>
+
+                <article class="project-card reveal"
+                    data-category="3d"
+                    data-video-id="YOUR_VIDEO_ID_3"
+                    data-platform="youtube"
+                    data-title="3D Title Sequence — Cinematic"
+                    data-desc="A cinematic 3D title sequence built in Cinema 4D with volumetric lighting, photorealistic materials, and an atmospheric depth-of-field pass.">
+                    <div class="project-thumb">
+                        <img src="https://img.youtube.com/vi/YOUR_VIDEO_ID_3/maxresdefault.jpg"
+                             alt="3D Title Sequence — Cinematic thumbnail"
+                             loading="lazy"
+                             onerror="this.src='https://via.placeholder.com/600x338/12121f/f59e0b?text=3D+Title+Sequence'">
+                        <div class="project-hover-overlay">
+                            <div class="project-play-btn" aria-label="Play 3D Title Sequence project">
+                                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-meta">
+                        <span class="project-category-label">3D Motion</span>
+                        <h3>3D Title Sequence — Cinematic</h3>
+                        <p>Volumetric 3D titles with photorealistic rendering in Cinema 4D.</p>
+                    </div>
+                </article>
+
+                <article class="project-card reveal"
+                    data-category="social"
+                    data-video-id="YOUR_VIDEO_ID_4"
+                    data-platform="youtube"
+                    data-title="Social Media Pack — Fashion Brand"
+                    data-desc="A complete series of animated Instagram Reels and Stories templates for a luxury fashion brand, designed for maximum visual impact on mobile screens.">
+                    <div class="project-thumb">
+                        <img src="https://img.youtube.com/vi/YOUR_VIDEO_ID_4/maxresdefault.jpg"
+                             alt="Social Media Pack — Fashion Brand thumbnail"
+                             loading="lazy"
+                             onerror="this.src='https://via.placeholder.com/600x338/12121f/ec4899?text=Social+Media+Pack'">
+                        <div class="project-hover-overlay">
+                            <div class="project-play-btn" aria-label="Play Social Media Pack project">
+                                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-meta">
+                        <span class="project-category-label">Social Media</span>
+                        <h3>Social Media Pack — Fashion Brand</h3>
+                        <p>Animated Reels & Stories for a luxury fashion campaign.</p>
+                    </div>
+                </article>
+
+                <article class="project-card reveal"
+                    data-category="logo"
+                    data-video-id="YOUR_VIDEO_ID_5"
+                    data-platform="youtube"
+                    data-title="Animated Intro — Gaming Channel"
+                    data-desc="A high-energy 5-second animated intro for a gaming YouTube channel, featuring dynamic typography, explosive particle effects, and frame-perfect sound design sync.">
+                    <div class="project-thumb">
+                        <img src="https://img.youtube.com/vi/YOUR_VIDEO_ID_5/maxresdefault.jpg"
+                             alt="Animated Intro — Gaming Channel thumbnail"
+                             loading="lazy"
+                             onerror="this.src='https://via.placeholder.com/600x338/12121f/10b981?text=YouTube+Intro'">
+                        <div class="project-hover-overlay">
+                            <div class="project-play-btn" aria-label="Play Gaming Intro project">
+                                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-meta">
+                        <span class="project-category-label">Logo Animation</span>
+                        <h3>Animated Intro — Gaming Channel</h3>
+                        <p>High-energy gaming intro with sound-synced motion design.</p>
+                    </div>
+                </article>
+
+                <article class="project-card reveal"
+                    data-category="explainer"
+                    data-video-id="YOUR_VIDEO_ID_6"
+                    data-platform="youtube"
+                    data-title="Product Launch Campaign"
+                    data-desc="A full motion graphics campaign for a product launch, including the hero reveal video, 15-second social cuts, and a suite of animated web banners.">
+                    <div class="project-thumb">
+                        <img src="https://img.youtube.com/vi/YOUR_VIDEO_ID_6/maxresdefault.jpg"
+                             alt="Product Launch Campaign thumbnail"
+                             loading="lazy"
+                             onerror="this.src='https://via.placeholder.com/600x338/12121f/8b5cf6?text=Product+Launch'">
+                        <div class="project-hover-overlay">
+                            <div class="project-play-btn" aria-label="Play Product Launch project">
+                                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-meta">
+                        <span class="project-category-label">Explainer</span>
+                        <h3>Product Launch Campaign</h3>
+                        <p>Full campaign: hero video, social cuts, and animated banners.</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================ -->
+    <!-- CONTACT SECTION -->
+    <!-- ============================================================ -->
+    <section id="contact">
+        <div class="contact-glow" aria-hidden="true"></div>
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-label">Let's Connect</span>
+                <h2>Ready to Create <br><span class="gradient-text">Something Amazing?</span></h2>
+                <p>Whether you have a project in mind or just want to say hello — I'm always open to new opportunities.</p>
+            </div>
+
+            <div class="contact-layout">
+                <!-- Contact Links -->
+                <div class="contact-links reveal">
+                    <a href="mailto:your@email.com" class="contact-card" aria-label="Send email">
+                        <div class="contact-card-icon">✉️</div>
+                        <div class="contact-card-text">
+                            <h4>Email</h4>
+                            <!-- Replace with your email -->
+                            <p>your@email.com</p>
+                        </div>
+                        <span class="contact-arrow" aria-hidden="true">→</span>
+                    </a>
+                    <!-- Replace href with your actual Upwork profile URL -->
+                    <a href="https://www.upwork.com/freelancers/~yourprofile" target="_blank" rel="noopener" class="contact-card" aria-label="View Upwork profile">
+                        <div class="contact-card-icon">💼</div>
+                        <div class="contact-card-text">
+                            <h4>Upwork</h4>
+                            <p>Hire me on Upwork</p>
+                        </div>
+                        <span class="contact-arrow" aria-hidden="true">→</span>
+                    </a>
+                    <!-- Replace href with your actual Fiverr profile URL -->
+                    <a href="https://www.fiverr.com/yourprofile" target="_blank" rel="noopener" class="contact-card" aria-label="View Fiverr profile">
+                        <div class="contact-card-icon">🎯</div>
+                        <div class="contact-card-text">
+                            <h4>Fiverr</h4>
+                            <p>Browse my Fiverr gigs</p>
+                        </div>
+                        <span class="contact-arrow" aria-hidden="true">→</span>
+                    </a>
+                    <!-- Replace href with your actual Instagram URL -->
+                    <a href="https://www.instagram.com/yourhandle" target="_blank" rel="noopener" class="contact-card" aria-label="View Instagram profile">
+                        <div class="contact-card-icon">📸</div>
+                        <div class="contact-card-text">
+                            <h4>Instagram</h4>
+                            <p>@yourhandle</p>
+                        </div>
+                        <span class="contact-arrow" aria-hidden="true">→</span>
+                    </a>
+                    <!-- Replace href with your actual LinkedIn URL -->
+                    <a href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noopener" class="contact-card" aria-label="View LinkedIn profile">
+                        <div class="contact-card-icon">🔗</div>
+                        <div class="contact-card-text">
+                            <h4>LinkedIn</h4>
+                            <p>Connect professionally</p>
+                        </div>
+                        <span class="contact-arrow" aria-hidden="true">→</span>
+                    </a>
+                    <!-- Replace href with your actual Behance URL -->
+                    <a href="https://www.behance.net/yourprofile" target="_blank" rel="noopener" class="contact-card" aria-label="View Behance profile">
+                        <div class="contact-card-icon">🎨</div>
+                        <div class="contact-card-text">
+                            <h4>Behance</h4>
+                            <p>Full portfolio gallery</p>
+                        </div>
+                        <span class="contact-arrow" aria-hidden="true">→</span>
+                    </a>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form-box reveal">
+                    <h3>Send a Message</h3>
+                    <form id="contactForm" novalidate>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="fname">Your Name</label>
+                                <input type="text" id="fname" name="name" placeholder="John Doe" required autocomplete="name">
+                            </div>
+                            <div class="form-group">
+                                <label for="femail">Your Email</label>
+                                <input type="email" id="femail" name="email" placeholder="john@email.com" required autocomplete="email">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="fservice">Service Needed</label>
+                            <select id="fservice" name="service" required>
+                                <option value="" disabled selected>Select a service...</option>
+                                <option value="Logo Animation">Logo Animation</option>
+                                <option value="Explainer Video">Explainer Video</option>
+                                <option value="3D Motion Graphics">3D Motion Graphics</option>
+                                <option value="Social Media Content">Social Media Content</option>
+                                <option value="Video Editing">Video Editing</option>
+                                <option value="Full Campaign">Full Campaign</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="fmessage">Project Details</label>
+                            <textarea id="fmessage" name="message" rows="5" placeholder="Tell me about your project, timeline, and budget..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+                            Send Message
+                        </button>
+                        <p class="form-note">This opens your mail client. For direct contact, email me at <a href="mailto:your@email.com">your@email.com</a></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================ -->
+    <!-- FOOTER -->
+    <!-- ============================================================ -->
+    <footer>
+        <div class="container">
+            <div class="footer-inner">
+                <a href="#hero" class="nav-logo">SA<span class="logo-dot">.</span></a>
+                <p>© <span id="footerYear"></span> Soumaan Ahmad · Cluxstation. All rights reserved.</p>
+                <nav class="footer-nav" aria-label="Footer navigation">
+                    <a href="#about">About</a>
+                    <a href="#projects">Work</a>
+                    <a href="#contact">Contact</a>
+                </nav>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ============================================================ -->
+    <!-- VIDEO MODAL -->
+    <!-- ============================================================ -->
+    <div id="videoModal" class="modal-backdrop" role="dialog" aria-modal="true" aria-labelledby="modalHeading" aria-hidden="true">
+        <div class="modal-box">
+            <button class="modal-close-btn" id="modalCloseBtn" aria-label="Close video player">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="20" height="20">
+                    <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+                </svg>
+            </button>
+            <h2 id="modalHeading" class="modal-heading"></h2>
+            <div class="modal-video-area" id="modalVideoArea"></div>
+            <p class="modal-description" id="modalDescription"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
