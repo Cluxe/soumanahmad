@@ -308,7 +308,7 @@ if (contactForm) {
         );
 
         /* Replace with your actual email address */
-        window.location.href = `mailto:your@email.com?subject=${subject}&body=${body}`;
+        window.location.href = `ahmadsoumaan6@gmail.com?subject=${subject}&body=${body}`;
     });
 }
 
